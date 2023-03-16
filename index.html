@@ -10,10 +10,10 @@
 </head>
 <body>
     <div class="container">
-        <input id="input" value="">
+        <input id="input" data-value="" value=" ">
         <div class="deli_mnozi">
-            <button>×</button>
-            <button>/</button>
+            <button onclick="saveNum(this)">×</button>
+            <button onclick="saveNum(this)">/</button>
         </div>
         <div class="flex_row">
             
@@ -21,18 +21,19 @@
                 <button>7</button>
                 <button>8</button>
                 <button>9</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
                 <button>1</button>
-                <button>1</button>
-                <button>1</button>
-                <button>1</button>
-                <button>1</button>
-                <button>1</button>
+                <button>2</button>
+                <button>3</button>
                 <button id="zero">0</button>
             </div>
             <div class="ostanati_operacii">
-                <button>-</button>
-                <button>+</button>
-                <button>=</button>
+                <button onclick="clear()">c</button>
+                <button onclick="saveNum(this)">-</button>
+                <button onclick="saveNum(this)">+</button>
+                <button onclick="saveNum(this)">=</button>
             </div>
         </div>
     </div>
