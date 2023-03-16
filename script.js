@@ -63,8 +63,13 @@ let saveNum=function (zn){
         
         strInput.value=goal;
     }
-    operator=zn.innerText;
+    operator=zn.innerText; 
+}
+
+function clearIt(){
+    arrNum=null;
     
-    
-    
+    operator=undefined;
+    goal=undefined;
+    strInput.value=' ';
 }
