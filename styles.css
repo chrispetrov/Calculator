@@ -11,6 +11,8 @@ body{
     border-radius: 6px;
     align-items: center;
     flex-direction: column;
+    border: 1px solid black;
+    
 }
 #input{
     height: 120px;
@@ -32,6 +34,8 @@ body{
     width: 50%;
     height: 80%;
     font-size: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 .flex_row{
     display: flex;
@@ -54,6 +58,8 @@ body{
     margin: 1px;
     font-size: 26px;
     font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 #zero{
     width: 268px;
@@ -69,4 +75,15 @@ body{
     width: 80px;
     height: 33%;
     font-size: 36px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#clear{
+    margin: 1px;
+    width: 80px;
+    height: 33%;
+    font-size: 36px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(156, 156, 231);
 }
